@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>常见错误日志 | Front end Lab</title>
+    <meta name="generator" content="VuePress 1.6.0">
+    <link rel="manifest" href="/front-end-lab/manifest.json">
+    <link rel="apple-touch-icon" href="/front-end-lab/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/front-end-lab/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="Web 开发笔记与解决方案">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preload" href="/front-end-lab/assets/css/0.styles.2fe69d74.css" as="style"><link rel="preload" href="/front-end-lab/assets/js/app.0c91daf8.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/2.902ef262.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/19.c6c21f5d.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/4.344f8158.js" as="script"><link rel="prefetch" href="/front-end-lab/assets/js/10.8e2bb6c9.js"><link rel="prefetch" href="/front-end-lab/assets/js/11.1945b041.js"><link rel="prefetch" href="/front-end-lab/assets/js/12.200e47bf.js"><link rel="prefetch" href="/front-end-lab/assets/js/13.33e68b02.js"><link rel="prefetch" href="/front-end-lab/assets/js/14.5301a7ea.js"><link rel="prefetch" href="/front-end-lab/assets/js/15.a13a9269.js"><link rel="prefetch" href="/front-end-lab/assets/js/16.fbfe6aca.js"><link rel="prefetch" href="/front-end-lab/assets/js/17.cf73c2c0.js"><link rel="prefetch" href="/front-end-lab/assets/js/18.c1c1943b.js"><link rel="prefetch" href="/front-end-lab/assets/js/20.bb2dee3e.js"><link rel="prefetch" href="/front-end-lab/assets/js/21.45442743.js"><link rel="prefetch" href="/front-end-lab/assets/js/22.d98acb5d.js"><link rel="prefetch" href="/front-end-lab/assets/js/3.b6ecb846.js"><link rel="prefetch" href="/front-end-lab/assets/js/5.b96d279c.js"><link rel="prefetch" href="/front-end-lab/assets/js/6.a1ed3d85.js"><link rel="prefetch" href="/front-end-lab/assets/js/7.20255447.js"><link rel="prefetch" href="/front-end-lab/assets/js/8.9f778e62.js"><link rel="prefetch" href="/front-end-lab/assets/js/9.1c168ea7.js">
+    <link rel="stylesheet" href="/front-end-lab/assets/css/0.styles.2fe69d74.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/front-end-lab/" class="home-link router-link-active"><!----> <span class="site-name">Front end Lab</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/front-end-lab/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/front-end-lab/javascript/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/front-end-lab/topic/2020.html" class="nav-link">
+  面试笔记
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          开发
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/typescript/" class="nav-link">
+  TypeScript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Note
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/git/" class="nav-link">
+  GIT
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/REGEXP/" class="nav-link">
+  REGEXP
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/operations/" class="nav-link router-link-active">
+  运维笔记
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/mobile/" class="nav-link">
+  移动端开发解决方案
+</a></li></ul></li><li class="dropdown-item"><!----> <a href="/front-end-lab/further/" class="nav-link">
+  扩展阅读
+</a></li></ul></div></div> <a href="https://github.com/anran758/front-end-lab" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/front-end-lab/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/front-end-lab/javascript/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/front-end-lab/topic/2020.html" class="nav-link">
+  面试笔记
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          开发
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/typescript/" class="nav-link">
+  TypeScript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Note
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/git/" class="nav-link">
+  GIT
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/REGEXP/" class="nav-link">
+  REGEXP
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/operations/" class="nav-link router-link-active">
+  运维笔记
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/mobile/" class="nav-link">
+  移动端开发解决方案
+</a></li></ul></li><li class="dropdown-item"><!----> <a href="/front-end-lab/further/" class="nav-link">
+  扩展阅读
+</a></li></ul></div></div> <a href="https://github.com/anran758/front-end-lab" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/front-end-lab/operations/" aria-current="page" class="sidebar-link">运维笔记</a></li><li><a href="/front-end-lab/operations/issue.html" aria-current="page" class="active sidebar-link">常见错误日志</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/front-end-lab/operations/issue.html#npm-发布失败" class="sidebar-link">npm 发布失败</a></li><li class="sidebar-sub-header"><a href="/front-end-lab/operations/issue.html#npm-安装依赖报权限不足的问题" class="sidebar-link">npm 安装依赖报权限不足的问题</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="常见错误日志"><a href="#常见错误日志" class="header-anchor">#</a> 常见错误日志</h1> <h2 id="npm-发布失败"><a href="#npm-发布失败" class="header-anchor">#</a> npm 发布失败</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>➜  module-test git:<span class="token punctuation">(</span>master<span class="token punctuation">)</span> <span class="token function">npm</span> publish
+<span class="token function">npm</span> ERR<span class="token operator">!</span> publish Failed PUT <span class="token number">403</span>
+<span class="token function">npm</span> ERR<span class="token operator">!</span> code E403
+<span class="token function">npm</span> ERR<span class="token operator">!</span> <span class="token punctuation">[</span>no_perms<span class="token punctuation">]</span> Private mode enable, only admin can publish this module <span class="token punctuation">[</span>no_perms<span class="token punctuation">]</span> Private mode enable, only admin can publish this mod
+ule: module-test
+****
+</code></pre></div><p>没有权限的原因可能是我们按照了淘宝的<code>npm</code>镜像，发布通过镜像代理，就会有权限问题。这时候将权限调整回来即可：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>➜  module-test git:<span class="token punctuation">(</span>master<span class="token punctuation">)</span> <span class="token function">npm</span> config <span class="token builtin class-name">set</span> registry http://registry.npmjs.org
+
+➜  module-test git:<span class="token punctuation">(</span>master<span class="token punctuation">)</span> <span class="token function">npm</span> publish
+<span class="token function">npm</span> ERR<span class="token operator">!</span> code ENEEDAUTH
+<span class="token function">npm</span> ERR<span class="token operator">!</span> need auth auth required <span class="token keyword">for</span> publishing
+<span class="token function">npm</span> ERR<span class="token operator">!</span> need auth You need to authorize this machine using <span class="token variable"><span class="token variable">`</span><span class="token function">npm</span> adduser<span class="token variable">`</span></span>
+
+<span class="token function">npm</span> ERR<span class="token operator">!</span> A complete log of this run can be found in:
+<span class="token function">npm</span> ERR<span class="token operator">!</span>     /Users/anran/.npm/_logs/2019-04-27T13_56_25_234Z-debug.log
+
+<span class="token comment"># 添加账号</span>
+➜  module-test git:<span class="token punctuation">(</span>master<span class="token punctuation">)</span> <span class="token function">npm</span> adduser
+Username: anran758
+Password:
+Email: <span class="token punctuation">(</span>this IS public<span class="token punctuation">)</span> anran758@gmail.com
+Logged <span class="token keyword">in</span> as anran758 on http://registry.npmjs.org/.
+
+<span class="token comment"># 验证邮箱</span>
+➜  module-test git:<span class="token punctuation">(</span>master<span class="token punctuation">)</span> <span class="token function">npm</span> publish
+<span class="token function">npm</span> ERR<span class="token operator">!</span> publish Failed PUT <span class="token number">403</span>
+<span class="token function">npm</span> ERR<span class="token operator">!</span> code E403
+<span class="token function">npm</span> ERR<span class="token operator">!</span> you must verify your email before publishing a new package: https://www.npmjs.com/email-edit <span class="token builtin class-name">:</span> module-test
+
+<span class="token function">npm</span> ERR<span class="token operator">!</span> A complete log of this run can be found in:
+<span class="token function">npm</span> ERR<span class="token operator">!</span>     /Users/anran/.npm/_logs/2019-04-27T14_09_30_297Z-debug.log
+
+➜  module-test git:<span class="token punctuation">(</span>master<span class="token punctuation">)</span> <span class="token function">npm</span> publish
++ module-test@1.0.0
+</code></pre></div><h2 id="npm-安装依赖报权限不足的问题"><a href="#npm-安装依赖报权限不足的问题" class="header-anchor">#</a> npm 安装依赖报权限不足的问题</h2> <p>如果在安装依赖时发现错误中由以下错误, 可以尝试通过<a href="https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md" target="_blank" rel="noopener noreferrer">此指南<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>解决问题:</p> <div class="language-log extra-class"><pre class="language-text"><code>Please try running this command again as root/Administrator. npm
+(node:10370) UnhandledPromiseRejectionWarning: Error: EACCES: permission denied, open '/Users/anran/.zshrc'
+</code></pre></div><p>如果是在项目内碰见权限问题，可以先检查是不是 <code>node_modules</code> 所属权限是 <code>root</code> 的，如是应该调整为当前用户才对(macOS 环境)。</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/anran758/front-end-lab/edit/master/docs/operations/issue.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">10/3/2020, 3:57:25 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/front-end-lab/operations/" class="prev router-link-active">
+        运维笔记
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/front-end-lab/assets/js/app.0c91daf8.js" defer></script><script src="/front-end-lab/assets/js/2.902ef262.js" defer></script><script src="/front-end-lab/assets/js/19.c6c21f5d.js" defer></script><script src="/front-end-lab/assets/js/4.344f8158.js" defer></script>
+  </body>
+</html>

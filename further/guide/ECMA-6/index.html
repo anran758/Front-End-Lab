@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Airbnb JavaScript Style Guide - ES6 | Front end Lab</title>
     <meta name="generator" content="VuePress 1.6.0">
+    <link rel="icon" href="/front-end-lab/icons/logo.svg">
     <link rel="manifest" href="/front-end-lab/manifest.json">
     <link rel="apple-touch-icon" href="/front-end-lab/icons/apple-touch-icon-152x152.png">
     <link rel="mask-icon" href="/front-end-lab/icons/safari-pinned-tab.svg" color="#3eaf7c">
@@ -14,7 +15,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
     <meta name="msapplication-TileColor" content="#000000">
-    <link rel="preload" href="/front-end-lab/assets/css/0.styles.2fe69d74.css" as="style"><link rel="preload" href="/front-end-lab/assets/js/app.2a83dc3b.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/2.902ef262.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/14.5301a7ea.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/4.344f8158.js" as="script"><link rel="prefetch" href="/front-end-lab/assets/js/10.8e2bb6c9.js"><link rel="prefetch" href="/front-end-lab/assets/js/11.1945b041.js"><link rel="prefetch" href="/front-end-lab/assets/js/12.200e47bf.js"><link rel="prefetch" href="/front-end-lab/assets/js/13.33e68b02.js"><link rel="prefetch" href="/front-end-lab/assets/js/15.a13a9269.js"><link rel="prefetch" href="/front-end-lab/assets/js/16.fbfe6aca.js"><link rel="prefetch" href="/front-end-lab/assets/js/17.cf73c2c0.js"><link rel="prefetch" href="/front-end-lab/assets/js/18.c1c1943b.js"><link rel="prefetch" href="/front-end-lab/assets/js/19.c6c21f5d.js"><link rel="prefetch" href="/front-end-lab/assets/js/20.a9f7ec69.js"><link rel="prefetch" href="/front-end-lab/assets/js/21.45442743.js"><link rel="prefetch" href="/front-end-lab/assets/js/22.d98acb5d.js"><link rel="prefetch" href="/front-end-lab/assets/js/3.b6ecb846.js"><link rel="prefetch" href="/front-end-lab/assets/js/5.b96d279c.js"><link rel="prefetch" href="/front-end-lab/assets/js/6.a1ed3d85.js"><link rel="prefetch" href="/front-end-lab/assets/js/7.20255447.js"><link rel="prefetch" href="/front-end-lab/assets/js/8.9f778e62.js"><link rel="prefetch" href="/front-end-lab/assets/js/9.1c168ea7.js">
+    <link rel="preload" href="/front-end-lab/assets/css/0.styles.2fe69d74.css" as="style"><link rel="preload" href="/front-end-lab/assets/js/app.29fc0747.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/2.902ef262.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/14.5301a7ea.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/4.344f8158.js" as="script"><link rel="prefetch" href="/front-end-lab/assets/js/10.8e2bb6c9.js"><link rel="prefetch" href="/front-end-lab/assets/js/11.1945b041.js"><link rel="prefetch" href="/front-end-lab/assets/js/12.200e47bf.js"><link rel="prefetch" href="/front-end-lab/assets/js/13.33e68b02.js"><link rel="prefetch" href="/front-end-lab/assets/js/15.a13a9269.js"><link rel="prefetch" href="/front-end-lab/assets/js/16.fbfe6aca.js"><link rel="prefetch" href="/front-end-lab/assets/js/17.cf73c2c0.js"><link rel="prefetch" href="/front-end-lab/assets/js/18.c1c1943b.js"><link rel="prefetch" href="/front-end-lab/assets/js/19.c6c21f5d.js"><link rel="prefetch" href="/front-end-lab/assets/js/20.b3ba0ab5.js"><link rel="prefetch" href="/front-end-lab/assets/js/21.45442743.js"><link rel="prefetch" href="/front-end-lab/assets/js/22.d98acb5d.js"><link rel="prefetch" href="/front-end-lab/assets/js/3.b6ecb846.js"><link rel="prefetch" href="/front-end-lab/assets/js/5.b96d279c.js"><link rel="prefetch" href="/front-end-lab/assets/js/6.a1ed3d85.js"><link rel="prefetch" href="/front-end-lab/assets/js/7.20255447.js"><link rel="prefetch" href="/front-end-lab/assets/js/8.9f778e62.js"><link rel="prefetch" href="/front-end-lab/assets/js/9.1c168ea7.js">
     <link rel="stylesheet" href="/front-end-lab/assets/css/0.styles.2fe69d74.css">
   </head>
   <body>
@@ -22,53 +23,65 @@
   CSS
 </a></div><div class="nav-item"><a href="/front-end-lab/javascript/" class="nav-link">
   JavaScript
+</a></div><div class="nav-item"><a href="/front-end-lab/git/" class="nav-link">
+  Git
+</a></div><div class="nav-item"><a href="/front-end-lab/REGEXP/" class="nav-link">
+  REGEXP
 </a></div><div class="nav-item"><a href="/front-end-lab/topic/2020.html" class="nav-link">
-  面试笔记
-</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+  面试指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="了解更多" class="dropdown-title"><span class="title">了解更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="了解更多" class="mobile-dropdown-title"><span class="title">了解更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
           开发
         </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/html/" class="nav-link">
   HTML
 </a></li><li class="dropdown-subitem"><a href="/front-end-lab/typescript/" class="nav-link">
   TypeScript
 </a></li></ul></li><li class="dropdown-item"><h4>
-          Note
-        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/git/" class="nav-link">
-  GIT
-</a></li><li class="dropdown-subitem"><a href="/front-end-lab/REGEXP/" class="nav-link">
-  REGEXP
-</a></li><li class="dropdown-subitem"><a href="/front-end-lab/operations/" class="nav-link">
+          笔记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/operations/" class="nav-link">
   运维笔记
 </a></li><li class="dropdown-subitem"><a href="/front-end-lab/mobile/" class="nav-link">
   移动端开发解决方案
-</a></li></ul></li><li class="dropdown-item"><!----> <a href="/front-end-lab/further/" class="nav-link router-link-active">
+</a></li></ul></li><li class="dropdown-item"><h4>
+          其他
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/further/" class="nav-link router-link-active">
   扩展阅读
-</a></li></ul></div></div> <a href="https://github.com/anran758/front-end-lab" target="_blank" rel="noopener noreferrer" class="repo-link">
+</a></li><li class="dropdown-subitem"><a href="https://anran758.github.io/blog/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://anran758.github.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Web 展示页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/anran758/front-end-lab" target="_blank" rel="noopener noreferrer" class="repo-link">
     GitHub
     <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/front-end-lab/css/" class="nav-link">
   CSS
 </a></div><div class="nav-item"><a href="/front-end-lab/javascript/" class="nav-link">
   JavaScript
+</a></div><div class="nav-item"><a href="/front-end-lab/git/" class="nav-link">
+  Git
+</a></div><div class="nav-item"><a href="/front-end-lab/REGEXP/" class="nav-link">
+  REGEXP
 </a></div><div class="nav-item"><a href="/front-end-lab/topic/2020.html" class="nav-link">
-  面试笔记
-</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+  面试指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="了解更多" class="dropdown-title"><span class="title">了解更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="了解更多" class="mobile-dropdown-title"><span class="title">了解更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
           开发
         </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/html/" class="nav-link">
   HTML
 </a></li><li class="dropdown-subitem"><a href="/front-end-lab/typescript/" class="nav-link">
   TypeScript
 </a></li></ul></li><li class="dropdown-item"><h4>
-          Note
-        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/git/" class="nav-link">
-  GIT
-</a></li><li class="dropdown-subitem"><a href="/front-end-lab/REGEXP/" class="nav-link">
-  REGEXP
-</a></li><li class="dropdown-subitem"><a href="/front-end-lab/operations/" class="nav-link">
+          笔记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/operations/" class="nav-link">
   运维笔记
 </a></li><li class="dropdown-subitem"><a href="/front-end-lab/mobile/" class="nav-link">
   移动端开发解决方案
-</a></li></ul></li><li class="dropdown-item"><!----> <a href="/front-end-lab/further/" class="nav-link router-link-active">
+</a></li></ul></li><li class="dropdown-item"><h4>
+          其他
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/further/" class="nav-link router-link-active">
   扩展阅读
-</a></li></ul></div></div> <a href="https://github.com/anran758/front-end-lab" target="_blank" rel="noopener noreferrer" class="repo-link">
+</a></li><li class="dropdown-subitem"><a href="https://anran758.github.io/blog/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://anran758.github.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Web 展示页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/anran758/front-end-lab" target="_blank" rel="noopener noreferrer" class="repo-link">
     GitHub
     <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="airbnb-javascript-style-guide-es6"><a href="#airbnb-javascript-style-guide-es6" class="header-anchor">#</a> Airbnb JavaScript Style Guide - ES6</h1> <p><strong>用更合理的方式写 JavaScript</strong></p> <p><code>ES5</code>的编码规范请查看<a href="https://github.com/anran758/Front-End-Lab/Code-Guide/ECMA-5" target="_blank" rel="noopener noreferrer">ECMA-5<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>, <code>ES6</code>规范是在其基础的升级. 本文是在原文的基础上, 根据自己/团队的代码规范中进行修改. 最后感谢<a href="#contributors">贡献者们</a>的无私奉献.</p> <p>English: <a href="https://github.com/airbnb/javascript" target="_blank" rel="noopener noreferrer">Airbnb JavaScript Style Guide<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><a name="table-of-contents"></a></p> <h2 id="目录"><a href="#目录" class="header-anchor">#</a> 目录</h2> <ol><li><a href="#types">类型</a></li> <li><a href="#references">引用</a></li> <li><a href="#objects">对象</a></li> <li><a href="#arrays">数组</a></li> <li><a href="#destructuring">解构</a></li> <li><a href="#strings">字符串</a></li> <li><a href="#functions">函数</a></li> <li><a href="#arrow-functions">箭头函数</a></li> <li><a href="#constructors">构造函数</a></li> <li><a href="#modules">模块</a></li> <li><a href="#iterators-and-generators">迭代器和生成器</a></li> <li><a href="#properties">属性</a></li> <li><a href="#variables">变量</a></li> <li><a href="#hoisting">提升</a></li> <li><a href="#comparison-operators--equality">比较运算符和等号</a></li> <li><a href="#blocks">代码块</a></li> <li><a href="#comments">注释</a></li> <li><a href="#whitespace">空白</a></li> <li><a href="#commas">逗号</a></li> <li><a href="#semicolons">分号</a></li> <li><a href="#type-casting--coercion">类型转换</a></li> <li><a href="#naming-conventions">命名规则</a></li> <li><a href="#accessors">存取器</a></li> <li><a href="#events">事件</a></li> <li><a href="#jquery">jQuery</a></li> <li><a href="#ecmascript-5-compatibility">ECMAScript 5 兼容性</a></li> <li><a href="#ecmascript-6-styles">ECMAScript 6 编码规范</a></li> <li><a href="#contributors">贡献者</a></li> <li><a href="#license">许可协议</a></li></ol> <p><a name="types"></a></p> <h2 id="类型"><a href="#类型" class="header-anchor">#</a> 类型</h2> <ul><li><p><a href="#1.1">1.1</a> <a name="1.1"></a> <strong>基本类型</strong>: 直接存取基本类型。</p> <ul><li><code>字符串</code></li> <li><code>数值</code></li> <li><code>布尔类型</code></li> <li><code>null</code></li> <li><code>undefined</code></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
 <span class="token keyword">let</span> bar <span class="token operator">=</span> foo<span class="token punctuation">;</span>
@@ -1276,6 +1289,6 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p> <p><strong><a href="#table-of-contents">⬆ 返回目录</a></strong></p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/anran758/front-end-lab/edit/master/docs/further/guide/ECMA-6/README.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">10/3/2020, 3:57:25 PM</span></div></footer> <!----> </main></div><div class="global-ui"><!----><!----></div></div>
-    <script src="/front-end-lab/assets/js/app.2a83dc3b.js" defer></script><script src="/front-end-lab/assets/js/2.902ef262.js" defer></script><script src="/front-end-lab/assets/js/14.5301a7ea.js" defer></script><script src="/front-end-lab/assets/js/4.344f8158.js" defer></script>
+    <script src="/front-end-lab/assets/js/app.29fc0747.js" defer></script><script src="/front-end-lab/assets/js/2.902ef262.js" defer></script><script src="/front-end-lab/assets/js/14.5301a7ea.js" defer></script><script src="/front-end-lab/assets/js/4.344f8158.js" defer></script>
   </body>
 </html>

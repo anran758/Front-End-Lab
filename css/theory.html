@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>css 涉及理论相关笔记 | Web 实验室</title>
+    <meta name="generator" content="VuePress 1.6.0">
+    <link rel="icon" href="/front-end-lab/icons/logo.svg">
+    <link rel="manifest" href="/front-end-lab/manifest.json">
+    <link rel="apple-touch-icon" href="/front-end-lab/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/front-end-lab/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="Web 开发笔记与解决方案">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preload" href="/front-end-lab/assets/css/0.styles.568a1a9e.css" as="style"><link rel="preload" href="/front-end-lab/assets/js/app.00a70194.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/2.9879a1bd.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/13.e3244b9e.js" as="script"><link rel="preload" href="/front-end-lab/assets/js/5.a85e15d3.js" as="script"><link rel="prefetch" href="/front-end-lab/assets/js/10.1f318d95.js"><link rel="prefetch" href="/front-end-lab/assets/js/11.93c522ad.js"><link rel="prefetch" href="/front-end-lab/assets/js/12.0c16cd24.js"><link rel="prefetch" href="/front-end-lab/assets/js/14.6c7fdc8e.js"><link rel="prefetch" href="/front-end-lab/assets/js/15.d7034c60.js"><link rel="prefetch" href="/front-end-lab/assets/js/16.103edd07.js"><link rel="prefetch" href="/front-end-lab/assets/js/17.4d13eab4.js"><link rel="prefetch" href="/front-end-lab/assets/js/18.1c43b515.js"><link rel="prefetch" href="/front-end-lab/assets/js/19.0782b73a.js"><link rel="prefetch" href="/front-end-lab/assets/js/20.9ad1f611.js"><link rel="prefetch" href="/front-end-lab/assets/js/21.069cad53.js"><link rel="prefetch" href="/front-end-lab/assets/js/22.a212e2de.js"><link rel="prefetch" href="/front-end-lab/assets/js/23.22f962fd.js"><link rel="prefetch" href="/front-end-lab/assets/js/24.9375b9ea.js"><link rel="prefetch" href="/front-end-lab/assets/js/25.af914635.js"><link rel="prefetch" href="/front-end-lab/assets/js/26.84b9e1f9.js"><link rel="prefetch" href="/front-end-lab/assets/js/3.a7eb30d8.js"><link rel="prefetch" href="/front-end-lab/assets/js/4.2c81f7d4.js"><link rel="prefetch" href="/front-end-lab/assets/js/6.602e35c4.js"><link rel="prefetch" href="/front-end-lab/assets/js/7.38a5338f.js"><link rel="prefetch" href="/front-end-lab/assets/js/8.87118d6b.js"><link rel="prefetch" href="/front-end-lab/assets/js/9.0025dc86.js">
+    <link rel="stylesheet" href="/front-end-lab/assets/css/0.styles.568a1a9e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/front-end-lab/" class="home-link router-link-active"><!----> <span class="site-name">Web 实验室</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/front-end-lab/css/" class="nav-link router-link-active">
+  CSS
+</a></div><div class="nav-item"><a href="/front-end-lab/javascript/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/front-end-lab/git/" class="nav-link">
+  Git
+</a></div><div class="nav-item"><a href="/front-end-lab/REGEXP/" class="nav-link">
+  REGEXP
+</a></div><div class="nav-item"><a href="/front-end-lab/topic/2020.html" class="nav-link">
+  面试指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="了解更多" class="dropdown-title"><span class="title">了解更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="了解更多" class="mobile-dropdown-title"><span class="title">了解更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          开发
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/typescript/" class="nav-link">
+  TypeScript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          笔记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/operations/" class="nav-link">
+  运维笔记
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/mobile/" class="nav-link">
+  移动端开发解决方案
+</a></li></ul></li><li class="dropdown-item"><h4>
+          其他
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/further/" class="nav-link">
+  扩展阅读
+</a></li><li class="dropdown-subitem"><a href="https://anran758.github.io/blog/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://anran758.github.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Web 展示页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/anran758/front-end-lab" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/front-end-lab/css/" class="nav-link router-link-active">
+  CSS
+</a></div><div class="nav-item"><a href="/front-end-lab/javascript/" class="nav-link">
+  JavaScript
+</a></div><div class="nav-item"><a href="/front-end-lab/git/" class="nav-link">
+  Git
+</a></div><div class="nav-item"><a href="/front-end-lab/REGEXP/" class="nav-link">
+  REGEXP
+</a></div><div class="nav-item"><a href="/front-end-lab/topic/2020.html" class="nav-link">
+  面试指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="了解更多" class="dropdown-title"><span class="title">了解更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="了解更多" class="mobile-dropdown-title"><span class="title">了解更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          开发
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/typescript/" class="nav-link">
+  TypeScript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          笔记
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/operations/" class="nav-link">
+  运维笔记
+</a></li><li class="dropdown-subitem"><a href="/front-end-lab/mobile/" class="nav-link">
+  移动端开发解决方案
+</a></li></ul></li><li class="dropdown-item"><h4>
+          其他
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end-lab/further/" class="nav-link">
+  扩展阅读
+</a></li><li class="dropdown-subitem"><a href="https://anran758.github.io/blog/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://anran758.github.io/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Web 展示页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/anran758/front-end-lab" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="css-涉及理论相关笔记"><a href="#css-涉及理论相关笔记" class="header-anchor">#</a> css 涉及理论相关笔记</h1> <p>一些值得注意的 rule 或 defect:</p> <ol><li>css 选择符是从右至左进行匹配的，为了浏览器在匹配 rule 时消耗过的时间应避免嵌套太高层级，<strong>建议最高不超过 3 层</strong>。</li> <li>了解哪些属性可以通过继承而来，避免重复指定规则。</li> <li>滚动容器避免使用 <code>padding-bottom</code> 进行留白，IOS 低版本会直接忽略掉。除此之外 <code>IE</code>, 低版本的 <code>firefox</code> 据说也有这种情况。</li></ol> <h2 id="margin"><a href="#margin" class="header-anchor">#</a> margin</h2> <h3 id="marin-百分比计算"><a href="#marin-百分比计算" class="header-anchor">#</a> marin 百分比计算</h3> <p>普通元素的 <code>marin</code> 的百分比是根据父元素的宽度来计算的。例如:</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.parents</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 600px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">img</span> <span class="token punctuation">{</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 10%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>那么子元素的 <code>margin</code> 计算后值为: <code>600px * 10% = 60px</code>。</p> <p>绝对定位计算方式是相同的，只不过它不是相对父元素，而是相对于第一个定位元素 (<code>relative/absolute/fixed</code>) 的宽度计算的。</p> <h3 id="margin-重叠通常特性"><a href="#margin-重叠通常特性" class="header-anchor">#</a> margin 重叠通常特性</h3> <ol><li>block 水平元素(不包括 <code>float</code> 和 <code>absolute</code> 元素)</li> <li>不考虑 <code>writing-mode</code>，只发生在垂直方向 (<code>margin-top</code> / <code>margin-bottom</code>)</li></ol> <h3 id="margin-重叠的场景"><a href="#margin-重叠的场景" class="header-anchor">#</a> margin 重叠的场景</h3> <ol><li>相邻的兄弟元素</li> <li>父级和第一个 / 最后一个子元素</li> <li>空的 block 元素</li></ol></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/anran758/front-end-lab/edit/master/docs/css/theory.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="outbound-link-title" role="img" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><title id="outbound-link-title">(opens new window)</title> <path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2021/1/16 下午2:57:18</span></div></footer> <!----> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/front-end-lab/assets/js/app.00a70194.js" defer></script><script src="/front-end-lab/assets/js/2.9879a1bd.js" defer></script><script src="/front-end-lab/assets/js/13.e3244b9e.js" defer></script><script src="/front-end-lab/assets/js/5.a85e15d3.js" defer></script>
+  </body>
+</html>

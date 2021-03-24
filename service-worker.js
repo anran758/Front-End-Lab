@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "bf516c6f30e94f321e33637a3b3de0e3"
+    "revision": "1d9795973d1205f4f68d660a484ffed5"
   },
   {
     "url": "assets/css/0.styles.598a8a72.css",
@@ -146,8 +146,8 @@ self.__precacheManifest = [
     "revision": "eca3acbc0c229bb89fdf7c9fbb3656a9"
   },
   {
-    "url": "assets/js/24.058920c6.js",
-    "revision": "d00334aa7a572752b3775ad636e490d2"
+    "url": "assets/js/24.b1e372fd.js",
+    "revision": "b2ec739a403eca59adc9fe41bc28164d"
   },
   {
     "url": "assets/js/25.782b9fe9.js",
@@ -198,40 +198,40 @@ self.__precacheManifest = [
     "revision": "e017422496b497a67507dde6ded37cc7"
   },
   {
-    "url": "assets/js/app.31beeef9.js",
-    "revision": "d4d5085061522d71073f7264adc04b80"
+    "url": "assets/js/app.6c360635.js",
+    "revision": "f49745f48e322b3cbd0a69419d58a67e"
   },
   {
     "url": "css/index.html",
-    "revision": "c5f785cb4aa7188a2baed21d73150ce0"
+    "revision": "8b0b8b1120abe6c9d1388a596bc9b39e"
   },
   {
     "url": "css/theory.html",
-    "revision": "888b18bf3243fbe0a9f5782c1a43fefc"
+    "revision": "730072dc0604ba392330feddbd0bec1b"
   },
   {
     "url": "further/en.html",
-    "revision": "72224488af184261d66c9c7e337c4c06"
+    "revision": "fe56c7bae659803c57e383121768c7ed"
   },
   {
     "url": "further/glossary.html",
-    "revision": "d7243e4ad36d191a874a2bb766bd936f"
+    "revision": "8edf16615afaf83d2322d54010b3db7a"
   },
   {
     "url": "further/guide/ECMA-5/index.html",
-    "revision": "060dd6d852d46236f95da950f9e20f35"
+    "revision": "a7b9ce2849be1500e1ebec9d1dedb511"
   },
   {
     "url": "further/guide/ECMA-6/index.html",
-    "revision": "d5b60a7858194eba06dfd25476e418d7"
+    "revision": "d22a3dead6d49fa8092ba96fc27ac846"
   },
   {
     "url": "further/index.html",
-    "revision": "3220bcf6c6c0f60ffc48b6576ecbaabc"
+    "revision": "0fd78a3e5b870bbaf223c1d890a9506c"
   },
   {
     "url": "git/index.html",
-    "revision": "0fb8549c239cb80ef00e94784e014936"
+    "revision": "d84c8696e70a59942ee8120185613fa1"
   },
   {
     "url": "hero.png",
@@ -239,7 +239,7 @@ self.__precacheManifest = [
   },
   {
     "url": "html/index.html",
-    "revision": "deb7d2c4ff69574f9819accd8fa5e430"
+    "revision": "993a586874af9959092dfabc550a4f35"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -299,47 +299,47 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "12e0356e63b10c74098ed83663ffc92f"
+    "revision": "70043f1927adae19902c0873ab35af95"
   },
   {
     "url": "javascript/index.html",
-    "revision": "582e5eaed273bfedf3c94f5c64ea685c"
+    "revision": "7cad590762b35f75722d894f60da1acd"
   },
   {
     "url": "mobile/index.html",
-    "revision": "822622cfc0591073b53a588c5725c4c5"
+    "revision": "3ccf9dd1d7f55e1a6ee676547519adfc"
   },
   {
     "url": "operations/index.html",
-    "revision": "43a7b9bc2359ad32ef43c28372a86f35"
+    "revision": "ca546c44b4d0679a11b7802c1e9f7345"
   },
   {
     "url": "operations/issue.html",
-    "revision": "7f9c8e3e8814d5feedb75d6557a6a81f"
+    "revision": "7bdc870844228fb5b1cc9e6a1f917678"
   },
   {
     "url": "REGEXP/index.html",
-    "revision": "add5ab2ee8dce426c14a5a95fa9c7c88"
+    "revision": "7bbbce406eb6ee3028811ab1d3d95abd"
   },
   {
     "url": "topic/2020.html",
-    "revision": "c8b7da2bca3030ccefe21539dbe848f3"
+    "revision": "6b196c65677c773967d427b9ebb02d2e"
   },
   {
     "url": "topic/react.html",
-    "revision": "5913f0ad4ee4cf4d8d20e833d2f581ea"
+    "revision": "1b9e8f74a84b61e17319f0f084725e52"
   },
   {
     "url": "topic/vue.html",
-    "revision": "7944b5d0d3025b3691210737444befeb"
+    "revision": "d97e4700dfe0d38de8eba4d124514c20"
   },
   {
     "url": "topic/webpack.html",
-    "revision": "a3393bbbc7234266b26e7eaceacdf5cc"
+    "revision": "ca44a43d3994d1f2ec31dd0427b3fd6d"
   },
   {
     "url": "typescript/index.html",
-    "revision": "8eb123d3e989f26b485ab9ee8f488456"
+    "revision": "da684884c73bf7f9a04a80611fee8079"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
